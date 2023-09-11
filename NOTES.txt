@@ -43,4 +43,5 @@ Available subcommands:
 
 8. Go to settings and add the new app inside INSTALLED_APPS
 9. Then after making changes in models.py of the app, type "python manage.py makemigrations" and then "python manage.py migrate"
-
+10. Use "dataclasses" or "shell" to access data
+11. 
