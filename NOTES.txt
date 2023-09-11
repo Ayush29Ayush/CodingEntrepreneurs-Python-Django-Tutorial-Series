@@ -1,0 +1,44 @@
+1. Create a virtual env
+2. In the venv, pip install django
+3. Type django-admin to get available subcommands
+Example:-
+PS D:\CodingEntrepreneurs Python & Django 3.2 Tutorial Series> django-admin
+
+Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+Available subcommands:
+
+[django]
+    check
+    compilemessages
+    createcachetable
+    dbshell
+    diffsettings
+    dumpdata
+    flush
+    inspectdb
+    loaddata
+    makemessages
+    makemigrations
+    migrate
+    optimizemigration
+    runserver
+    sendtestemail
+    shell
+    showmigrations
+    sqlflush
+    sqlmigrate
+    sqlsequencereset
+    squashmigrations
+    startapp
+    startproject
+    test
+    testserver
+
+4. Type "ii ." to open file explorer at your present directory
+
+5. To create a project => Type "django-admin startproject project_name"
+6. python manage.py runserver
+7. To start a app => Type "python manage.py startapp app_name"
+
+
