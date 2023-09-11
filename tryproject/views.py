@@ -16,6 +16,5 @@ def home_view(request):
     # """
     article_obj = Article.objects.get(id=2)
     article_title = article_obj.title
-    
     article_content = article_obj.content
     return HttpResponse(HTML_STRING1 + HTML_STRING2)
