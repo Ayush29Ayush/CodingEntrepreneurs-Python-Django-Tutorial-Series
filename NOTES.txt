@@ -46,3 +46,5 @@ Available subcommands:
 10. Use "dataclasses" or "shell" to access data
 11. Make views.py in project_name and write code for home_view.
 11. Make templates folder and add them to settings.py or use render_to_string
+
+12. Article.objects.all() will give Queryset which is not a list but behaves like a list.
