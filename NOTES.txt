@@ -48,3 +48,5 @@ Available subcommands:
 11. Make templates folder and add them to settings.py or use render_to_string
 
 12. Article.objects.all() will give Queryset which is not a list but behaves like a list.
+13. Write urls in their respective apps.
+14. Dynamic routes can be added. For example dynamic id can be passed to the url using <int:id> 
